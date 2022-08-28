@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: server
+    include: private
+
+
+logging.level:
+  org.hibernate.SQL: info
+  org.hibernate.type: info
+
+logging:
+  level:
+    root: info

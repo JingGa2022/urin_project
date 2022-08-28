@@ -1,0 +1,249 @@
+html,
+body{
+overflow-x:hidden;
+}
+
+.title-logo {
+  height: 50px;
+}
+
+.first-page {
+  height: 120vh;
+}
+
+.landingpage-body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 640px) {
+  .main-text {
+    margin: 30px 0 20px 0;
+    color: #0037FA;
+    word-break: keep-all;
+    font-size: 48px;
+  }
+
+  .main-text2 {
+    width: 600px;
+    margin: 0 auto 30px auto;
+    text-align: center;
+    word-break: keep-all;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .main-text {
+    margin: 30px 0 10px 0;
+    color: #0037FA;
+    word-break: keep-all;
+    font-size: 28px;
+  }
+
+  .main-text2 {
+    width: 300px;
+    margin: 0 auto 30px auto;
+    text-align: center;
+    word-break: keep-all;
+  }
+}
+
+.centered {
+  text-align: center;
+}
+
+.img-group {
+  position: relative;
+  background: linear-gradient(0deg, rgba(31,30,33,1) 0%, rgba(31,30,33,1) 5%, rgba(31,30,33,1) 100%);
+  margin-top: 50px;
+  height: 120vh;
+}
+
+
+@media screen and (max-width: 1200px) {
+
+  .img-group > div > p {
+    position: absolute;
+    top: 82.5vh;
+    left: 10vw;
+    color: white;
+    text-align: left;
+    font-size: 28px;
+    word-break: keep-all;
+    width: 280px;
+  }
+  
+  .img-group > div > Button {
+    position: absolute;
+    top: 100vh;
+    left: 10vw;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+  .img-group > div > p {
+    position: absolute;
+    top: 75vh;
+    left: 10vw;
+    color: white;
+    width: 500px;
+    text-align: left;
+    font-size: 48px;
+  }
+  
+  .img-group > div > Button {
+    position: absolute;
+    top: 100vh;
+    left: 10vw;
+  }
+}
+
+@media screen and (max-width: 641px) {
+
+  .img4 {
+    width: 300px;
+    margin: 0 auto 0 auto;
+  }
+}
+
+@media screen and (min-width: 641px) {
+
+  .img4 {
+    width: 600px;
+    margin: 0 auto 0 auto;
+  }
+}
+
+.img1 {
+  position: absolute;
+  top: 30vh;
+  left: 10vw;
+  border-radius: 2vw;
+  width: 40vw;
+}
+
+.img2 {
+  position: absolute;
+  top: 35vh;
+  right: 10vw;
+  border-radius: 2vw;
+  width: 25vw;
+}
+
+.img3 {
+  position: absolute;
+  top: 70vh;
+  right: 10vw;
+  border-radius: 2vw;
+  width: 35vw;
+}
+
+.img-group2 {
+  position: relative;
+  height: 140vh;
+  background-image: linear-gradient(rgba(0, 0, 8, 0.7),rgba(0, 0, 8, 0.7)), url(../../../public/img/landingpage-img6.jpg);
+  background-size: cover;
+}
+
+.img5 {
+  position: absolute;
+  top: 62.5vh;
+  right: 10vw;
+  border: 1.5vw solid #18181a;
+  box-shadow: 0 0 6px rgba(0, 0, 5, 0.3);
+  border-radius: 1.5vw;
+  width: 35vw;
+}
+
+@media screen and (min-width: 1200px) {
+
+  .img-group2 > div > p {
+    position: absolute;
+    top: 65vh;
+    left: 10vw;
+    color: white;
+    width: 500px;
+    text-align: left;
+    word-break: keep-all;
+    font-size: 48px;
+  }
+
+  .img-group2 > div > Button {
+    position: absolute;
+    top: 85vh;
+    left: 10vw;
+  }
+
+  .img5 {
+    position: absolute;
+    top: 60vh;
+    right: 10vw;
+    border: 1.5vw solid #18181a;
+    box-shadow: 0 0 6px rgba(0, 0, 5, 0.3);
+    border-radius: 1.5vw;
+    width: 35vw;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+
+  .img-group2 > div > p {
+    position: absolute;
+    top: 75vh;
+    left: 10vw;
+    color: white;
+    width: 500px;
+    text-align: left;
+    word-break: keep-all;
+    font-size: 48px;
+  }
+
+  .img-group2 > div > Button {
+    position: absolute;
+    top: 95vh;
+    left: 10vw;
+  }
+
+  .img5 {
+    position: absolute;
+    top: 45vh;
+    right: 10vw;
+    border: 1.5vw solid #18181a;
+    box-shadow: 0 0 6px rgba(0, 0, 5, 0.3);
+    border-radius: 1.5vw;
+    width: 50vw;
+  }
+}
+
+@media screen and (max-width: 640px) {
+
+  .img-group2 > div > p {
+    position: absolute;
+    top: 75vh;
+    left: 10vw;
+    color: white;
+    width: 300px;
+    text-align: left;
+    word-break: keep-all;
+    font-size: 28px;
+  }
+
+  .img-group2 > div > Button {
+    position: absolute;
+    top: 90vh;
+    left: 10vw;
+  }
+
+  .img5 {
+    position: absolute;
+    top: 45vh;
+    right: 10vw;
+    border: 1.5vw solid #18181a;
+    box-shadow: 0 0 6px rgba(0, 0, 5, 0.3);
+    border-radius: 1.5vw;
+    width: 250px;
+  }
+}
+
